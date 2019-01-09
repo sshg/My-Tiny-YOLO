@@ -1,6 +1,6 @@
 # Optimized Tiny YOLO for inland ship detection
 
-Main implementations are included in src folder and mostly titled with depthwise_convolution. Other implementations used for webcam demo are included in src/demo.c.
+Implementation of tiny-YOLOv2 with depthwise conv layer. The network was slightly changed for faster detection speed.
 
 For network, see cfg/my-yolov2-tiny.cfg.
 
