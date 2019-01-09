@@ -1,11 +1,11 @@
 # darknet mobilenet
 
-Implement  the paper:MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications  based on darknet framework
+Implement depth-wise conv layer based on darknet framework. See cfg/
 
-1、git clone https://github.com/Stphn-Gao/My-Tiny-YOLO.git
+1. git clone this repo
 
-2、open Makefile ,set GPU=1 、CUDNN=1 and make compile
+2. open Makefile ,set GPU=1 、CUDNN=1 and make compile
 
-3、network example:cfg/mobilenet_imagenet.cfg 
+3. network example:cfg/mobilenet_imagenet.cfg 
 
-4、main implement :depthwise_convolutional_kernels.cu  depthwise_convolutional_layer.c depthwise_convolutional_layer.h
+4. main implement :depthwise_convolutional_kernels.cu  depthwise_convolutional_layer.c depthwise_convolutional_layer.h
