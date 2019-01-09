@@ -1,11 +1,14 @@
-# darknet mobilenet
+# Optimized Tiny YOLO for inland ship detection
 
-Implement depth-wise conv layer based on darknet framework. See cfg/
+Main implementations are included in src folder and mostly titled with depthwise_convolution. Other implementations used for webcam demo are included in src/demo.c.
 
-1. git clone this repo
+For network, see cfg/my-yolov2-tiny.cfg.
 
-2. open Makefile ,set GPU=1 、CUDNN=1 and make compile
+For data generating, see my_script. The dataset I used to train this network is 13000 inland ship images.
 
-3. network example:cfg/mobilenet_imagenet.cfg 
+# How to run it
 
-4. main implement :depthwise_convolutional_kernels.cu  depthwise_convolutional_layer.c depthwise_convolutional_layer.h
+1. Git clone this repo.
+
+2. Open Makefile and set GPU & CUDNN=1. Then make compile. (It needs CUDA & CUDNN dependencies to compile)
+   
