@@ -1,6 +1,6 @@
 # Optimized Tiny YOLO for inland ship detection
 
-Implementation of tiny-YOLOv2 with depthwise conv layer. The network was slightly changed for faster detection speed.
+Implementation of tiny-YOLOv2 with depthwise conv layer based on [Darknet](https://pjreddie.com/darknet/) framework. The network was slightly changed for faster detection speed.
 
 For network, see cfg/my-yolov2-tiny.cfg.
 
