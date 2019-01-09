@@ -4,7 +4,9 @@ Implementation of tiny-YOLOv2 with depthwise conv layer. The network was slightl
 
 For network, see cfg/my-yolov2-tiny.cfg.
 
-For data generating, see my_script. The dataset I used to train this network is 13000 inland ship images.
+For label generating, see my_script. The dataset I used to train this network is 13000 inland ship images.
+
+For pre trained weight, see backup/my-yolov2-tiny_final.weights.
 
 # How to run it
 
