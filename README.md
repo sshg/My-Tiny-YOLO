@@ -10,7 +10,7 @@ For pre-trained weight, see backup/my-yolov2-tiny_final.weights.
 
 # How to run it
 
-1. Git clone this repo.
+Git clone this repo.
 
-2. Open Makefile and set GPU & CUDNN=1. Then make compile. (It needs CUDA & CUDNN dependencies to compile)
+Open Makefile and set GPU & CUDNN=1. Then make compile. (It needs CUDA & CUDNN dependencies to compile)
    
